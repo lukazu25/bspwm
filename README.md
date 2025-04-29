@@ -10,10 +10,15 @@ copy sxhkdrc config to sxhkd directory
 ```bash
 sudo cp sxhdrc ~/.config/sxhkd/
 ```
-copy launch script config to polybar directory
+copy launch script to polybar directory
 ```bash
 sudo cp launch.sh ~/.config/polybar/
 ```
+copy picom to picom directory
+```bash
+sudo cp picom.conf ~/.config/picom/
+```
+
 make it executable
 ```bash
 sudo chmod +x launch.sh
