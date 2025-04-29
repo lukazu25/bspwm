@@ -14,6 +14,13 @@ copy launch script to polybar directory
 ```bash
 sudo cp launch.sh ~/.config/polybar/
 ```
+
+copy launch volume and brightness script to bspwm directory
+```bash
+sudo cp volume.sh ~/.config/pbspwm/scripts/
+sudo cp brightness.sh ~/.config/pbspwm/scripts/
+```
+
 copy picom to picom directory
 ```bash
 sudo cp picom.conf ~/.config/picom/
@@ -23,4 +30,6 @@ make it executable
 ```bash
 sudo chmod +x launch.sh
 sudo chmod +x bspwmrc
+sudo chmod +x volume.sh
+sudo chmod +x brightness.sh
 ```
